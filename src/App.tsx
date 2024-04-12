@@ -4,6 +4,7 @@ import "./App.css";
 import ReminderList from "./components/ReminderList";
 import Reminder from "./models/reminder";
 
+// This component is only responsible for rendering UI.
 function App() {
   const [reminders, setReminders] = useState<Reminder[]>([
     { id: 1, title: "Reminder 1" },
